@@ -1,0 +1,59 @@
+.background{
+  width: 100vw;
+  overflow: hidden;
+  height: 100vh;
+  background-color: #ffd230;
+  h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    z-index: 10;
+    position: absolute;
+    top: 46%;
+    left: 15%;
+    letter-spacing: 15px
+  }
+  .left{
+    width: 50vw;
+    float: left;
+    background-color: #000;
+    height: 100vh;
+    transform-origin: top;
+  }
+  .right{
+    width: 50vw;
+    float: right;
+    background-color:#00F9BA;
+    height: 100vh;
+    transform-origin: bottom;
+  }
+  .cardLeft{
+    position:absolute;
+    width: 200px;
+    background-color: #00F9BA;
+    height: 400px;
+  }
+  .cardXL{
+    width: 400px;
+    height: 400px;
+    z-index:5;
+    -webkit-box-shadow: 10px 10px 14px -7px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 14px -7px rgba(0,0,0,1);
+    box-shadow: 10px 10px 14px -7px rgba(0,0,0,1);
+    position: absolute;
+    left: 50%;
+   background-color: #000;
+    transform: translateX(-50%);
+    object-fit: cover;
+    top:25%;
+
+    img{
+      width: 843px;
+      top: -164px;
+      position: absolute;
+      left: -242px;
+  
+    }
+  }
+
+}

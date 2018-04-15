@@ -1,0 +1,52 @@
+.content{
+  width: 960px;
+  margin: 0 auto;
+  height: 450px;
+  margin-top: 250px;
+  position: relative;
+
+  .img-content{
+    width: 440px;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .descriptionSection{
+    position: absolute;
+    width: 50%;
+    max-width: 454px;
+    margin-right: 50px;
+    left: 45%;
+    top: 70%;
+    line-height:30px;
+  }
+    .subtitle{
+      font-size: 42px;
+      font-family: sans-serif;
+      text-align: center;
+      margin-bottom: 75px;
+      color: #222;
+
+    }
+    .bg{
+      position: absolute;
+      width: 960px;
+      height: 60px;
+      top: -2px;
+      left: 204px;
+      &.first{
+        background-color: #ffd230;
+      }
+      &.second{
+        background-color: grey;
+      }
+
+    }
+    .mountain{
+      width: 440px;
+    }
+    .content-text{
+      width: 320px;
+      margin-top: -100px;
+    }
+}

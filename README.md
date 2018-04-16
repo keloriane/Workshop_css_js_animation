@@ -1,5 +1,5 @@
 # Workshop_css_js_animation
-# Workshop_css_js_animation
+
 ## First let's talk about css Animtation
 
 The Goal of this workshop was to start by the ground up.
